@@ -4,6 +4,7 @@ body {
     text-align: center;
     transition: background-color 0.5s ease;
 }
+
 .container {
     max-width: 400px;
     margin: 0 auto;
@@ -20,7 +21,26 @@ body {
     background-image: url('back.jpeg'); /* You can replace 'cookie.png' with your own cookie image */
     background-size: cover;
     background-repeat: no-repeat;
-    margin: 0 auto;
+    margin: 40px auto;
     cursor: pointer;
     transition: transform 0.2s ease;
+}
+
+.cookie:hover {
+    transform: scale(1.1);
+}
+
+#changeNameBtn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#changeNameBtn:hover {
+    background-color: #2980b9;
 }
