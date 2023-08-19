@@ -2,8 +2,7 @@ const signupForm = document.getElementById('signupForm');
 const usrnm= "22145083";
 const pass= "1234";
 signupForm.addEventListener('submit', function (e) {
-    e.preventDefault();
-    //Prevent the default form submission behavior
+    e.preventDefault(); 
 
     // Get the entered username and password
     const username = document.getElementById('username').value;
