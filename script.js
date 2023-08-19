@@ -38,6 +38,7 @@ const allBakeriesContainer = document.getElementById('allBakeries');
 const bakeryList = document.getElementById('bakeryList');
 
 // Function to display all bakeries
+
 function displayAllBakeries() {
     bakeryList.innerHTML = ''; 
 
@@ -50,3 +51,15 @@ function displayAllBakeries() {
 
     allBakeriesContainer.classList.remove('hidden');
 }
+
+
+seeAllBakeriesBtn.addEventListener('click', displayAllBakeries);
+
+const resetBtn = document.getElementById('resetBtn');
+function resetAllRecords() {
+    localStorage.clear();  
+    bakeryData = {}; 
+    currentBakeryName = 'My Bakery';  
+    updateUI();}
+
+resetBtn.addEventListener('click', resetAllRecords);
