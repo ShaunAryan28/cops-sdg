@@ -2,12 +2,16 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
     text-align: center;
+    background-image: url(download\ \(1\).jpeg);
+    background-repeat: no-repeat;
+    background-size:1600px 800px ;
 }
 
 .container {
     max-width: 400px;
-    margin: 0 auto;
-    background-color: #fff;
+    margin: 200px auto;
+    background-color:bisque;
+    
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -23,12 +27,13 @@ label {
 }
 
 input {
-    width: 100%;
+    width: 96%;
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 16px;
+    background-color: antiquewhite;
 }
 
 button {
@@ -36,6 +41,8 @@ button {
     color: #fff;
     border: none;
     border-radius: 5px;
+    align-items: center;
+    justify-content: center;
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
