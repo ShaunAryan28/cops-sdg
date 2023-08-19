@@ -26,3 +26,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 
    ```bash
    git clone https://github.com/yourusername/bakery-cookie-clicker.git
+
+2. Open main.html:
+    Open with live server.
+   
